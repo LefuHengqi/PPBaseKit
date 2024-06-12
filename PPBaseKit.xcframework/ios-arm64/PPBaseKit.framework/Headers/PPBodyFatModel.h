@@ -153,6 +153,13 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic,assign) CGFloat   ppZ20KhzTrunkDeCode;
 
 
+/// 四电极设备双频-100kHz密文阻抗
+@property (nonatomic,assign) NSInteger ppImpedance100EnCode;
+
+/// 四电极设备双频-100kHz解密阻抗
+@property (nonatomic, assign)CGFloat ppImpedance100DeCode;
+
+
 /// 四电极算法解密阻抗
 @property (nonatomic, assign)CGFloat ppZTwoLegsDeCode;
 
