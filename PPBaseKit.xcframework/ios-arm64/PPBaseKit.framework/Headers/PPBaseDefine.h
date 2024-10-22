@@ -24,7 +24,7 @@ typedef NS_ENUM(NSUInteger, PPDeviceCalcuteType){
     PPDeviceCalcuteTypeAlternate8_1, // 8电极算法CF586 bhProduct = 3
     PPDeviceCalcuteTypeAlternate4_0, // 4电极交流(新)-跟随方案商，最新版本
     PPDeviceCalcuteTypeAlternate4_1, // 4电极双频-跟随方案商，最新版本
-    PPDeviceCalcuteTypeAlternate8_2, // 8电极算法，bhProduct =0--CF610
+    PPDeviceCalcuteTypeAlternate8_2, // 8电极算法，bhProduct =7--CF610
     PPDeviceCalcuteTypeAlternate8_3, // 8电极算法，差异算法 bhProduct = 5
     PPDeviceCalcuteTypeAlternate8_4, // 8电极算法，bhProduct =6--CF597_N
 
