@@ -12,6 +12,7 @@
 #import "PPBodyFatModel.h"
 #import "PPBluetoothDeviceSettingModel.h"
 #import "PPAstonExtension.h"
+#import "PPCalculateTools.h"
 
 //! Project version number for PPBaseKit.
 FOUNDATION_EXPORT double PPBaseKitVersionNumber;
