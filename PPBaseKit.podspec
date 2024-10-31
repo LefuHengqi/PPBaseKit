@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "PPBaseKit"
-  spec.version      = "1.2.9"
+  spec.version      = "1.2.10"
   spec.summary      = "General Models and Tools."
 
   # This description is used to generate tags and improve search results.
@@ -110,7 +110,8 @@ Pod::Spec.new do |spec|
   #
 
   # spec.resource  = "icon.png"
-  spec.resources = "PPBaseKit.xcframework/**/*.xcprivacy"
+  # spec.resources = ""
+  spec.resource_bundles = { "PPBaseKit" => "PPBaseKit.xcframework/**/*.xcprivacy" }
 
   # spec.preserve_paths = "FilesToSave", "MoreFilesToSave"
 
