@@ -34,24 +34,45 @@ void PPCustomLog(const char *func, int lineNumber, NSString *format, ...);
 
 
 /**
- *  Log 输出开关 (默认关闭)
- *
- *  @param flag 是否开启
+ *  Log 开关输出 (默认打开)
+ *  @param flag   YES: 控制台有日志打印 ， NO: 控制台不打印SDK日志
  */
 + (void)setLogEnable:(BOOL)flag;
 
 /**
  *  是否开启了 Log 输出
  *
- *  @return Log 开关状态
+ *  @return Log 开关状态， YES: 控制台有日志打印 ，  NO: 控制台不打印SDK日志
  */
 + (BOOL)logEnable;
+
+
+/**
+ *  保存文件开关 (默认关闭)
+ *
+ *  注：如果 logEnable 设置为 NO ，则此功能失效，不会保存文件
+ *  
+ *  @param flag   YES: 保存日志文件 ， NO: 不保存日志文件
+ */
++ (void)setSaveFileEnable:(BOOL)flag;
+
+/**
+ *  是否开启了保存日志文件
+ *
+ *  注：如果 logEnable 设置为 NO ，则此功能失效，不会保存文件
+ *
+ *  @return YES: 保存日志文件 ， NO: 不保存日志文件
+ */
++ (BOOL)saveFileEnable;
+
 
 + (BOOL)logMessagesEnable;
 
 + (void)setLogMessagesEnable:(BOOL)flag;
 
+
 + (NSString *)getAppLogUUID;
+
 
 @end
 
