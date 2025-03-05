@@ -244,6 +244,10 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic,assign) NSInteger             ppHeartRate;
 @property (nonatomic,strong) NSArray<NSNumber *>* ppHeartRateList;
 
+/// 脚长(cm)，放大100倍
+@property (nonatomic,assign) NSInteger             ppFootLen;
+@property (nonatomic,strong) NSArray<NSNumber *>* ppFootLenList;
+
 /// 基础代谢(kcal/day)
 @property (nonatomic,assign) NSInteger             ppBMR;
 @property (nonatomic,strong) NSArray<NSNumber *>* ppBMRList;

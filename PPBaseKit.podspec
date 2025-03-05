@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "PPBaseKit"
-  spec.version      = "1.2.12"
+  spec.version      = "1.2.13"
   spec.summary      = "General Models and Tools."
 
   # This description is used to generate tags and improve search results.
