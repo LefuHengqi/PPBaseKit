@@ -267,6 +267,8 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic,assign) CGFloat              ppFatControlKg;
 /// 标准体重(kg)
 @property (nonatomic,assign) CGFloat              ppBodyStandardWeightKg;
+/// 理想体重(kg)
+@property (nonatomic,assign) CGFloat              ppIdealWeightKg;
 
 /// 控制体重(kg)
 @property (nonatomic,assign) CGFloat              ppControlWeightKg;
