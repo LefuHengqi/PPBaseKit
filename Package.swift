@@ -10,7 +10,7 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "PPBaseKit",
-            url: "https://github.com/LefuHengqi/PPBaseKit/releases/download/1.2.17/PPBaseKit-1.2.17.xcframework.zip",
+            url: "https://github.com/LefuHengqi/PPBaseKit/releases/download/1.2.18/PPBaseKit-1.2.18.xcframework.zip",
             checksum: "332e53469a82cc61829e8a1031ca8dfb9bf0d57101091e5f9e4ba9744a884834"
         )
     ]
